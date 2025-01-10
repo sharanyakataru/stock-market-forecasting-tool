@@ -1,0 +1,11 @@
+# Ignore the .venv directory
+.venv/
+
+# Ignore specific large files in .venv
+.venv/lib/python3.12/site-packages/clang/native/libclang.dylib
+.venv/lib/python3.12/site-packages/tensorflow/libtensorflow_cc.2.dylib
+.venv/lib/python3.12/site-packages/tensorflow/compiler/mlir/stablehlo/stablehlo_extension.so
+
+# Ignore git-lfs objects
+.git/lfs/objects/
+
