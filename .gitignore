@@ -403,3 +403,7 @@ f02ee21b87 * .venv/lib/python3.12/site-packages/tensorflow/python/util/_tf_stack
 e49f114b89 * .venv/lib/python3.12/site-packages/tensorflow/python/util/fast_module_type.so
 00cb4d6c0f * .venv/lib/python3.12/site-packages/tensorflow/python/util/pywrap_xla_ops.so
 809b3fbad4 * .venv/lib/python3.12/site-packages/wrapt/_wrappers.cpython-312-darwin.so
+
+# Ignore dynamic libraries (dylibs and so files)
+*.dylib
+*.so
