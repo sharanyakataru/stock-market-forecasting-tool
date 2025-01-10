@@ -1,0 +1,2 @@
+*.dylib !text !filter !merge !diff
+*.so !text !filter !merge !diff
