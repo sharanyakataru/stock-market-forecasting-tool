@@ -31,7 +31,7 @@ A full-stack web application that displays real-time stock data, market indexes,
 git clone https://github.com/sharanyakataru/stock-market-forecasting-tool.git
 cd stock-market-forecasting-tool
 
-'''
+```
 ---
 
 ## Backend
