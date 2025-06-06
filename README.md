@@ -35,21 +35,21 @@ cd stock-market-forecasting-tool
 ---
 
 ## Backend
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn src.main:app --reload
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- uvicorn src.main:app --reload
 
 ---
 ## Frontend
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 ---
 ## Endpoints
-/api/stockprice/{ticker} – Get real-time stock price
-/api/market-overview – Get latest data for major market indexes
-/api/portfolio/{user_id} – Get saved stocks for a user
-/api/portfolio/remove – Remove a stock from portfolio
+- /api/stockprice/{ticker} – Get real-time stock price
+- /api/market-overview – Get latest data for major market indexes
+- /api/portfolio/{user_id} – Get saved stocks for a user
+- /api/portfolio/remove – Remove a stock from portfolio
 
